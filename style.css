@@ -1,7 +1,77 @@
-.nanum-myeongjo-regular {
-    font-family: "Nanum Myeongjo", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
-  
+html, body, body {
+    height: 100%;
+    font-family: "Nanum Myeongjo", serif;
+}
+
+body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+header, h1, h2, img, img + p, ul, ol {
+    margin-bottom: 1rem;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+}
+
+img + p {
+    color: rgba(80, 80, 80, 0.85);
+    margin-bottom: 2rem;
+}
+
+ul, ol {
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 1rem;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ol li {
+    margin-bottom: .9rem;
+}
